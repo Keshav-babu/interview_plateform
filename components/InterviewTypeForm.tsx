@@ -100,7 +100,7 @@ const InterviewTypeForm = ({
   };
 
   return (
-    <div className="m-auto w-96 p-2 border rounded-2xl">
+    <div className="w-full m-auto md:w-2 p-2 border rounded-2xl">
       <h3>Help to to create your Interview questions.</h3>
       <Form {...form}>
         <form
