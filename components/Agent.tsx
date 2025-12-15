@@ -184,11 +184,12 @@ const Agent = ({
         <div className="card-interviewer">
           <div className="avatar">
             <Image
-              src="/ai-avatar.png"
+              // src="/ai-avatar.png"
+              src="/ai_chatbot.jpeg"
               alt="profile-image"
               width={65}
               height={54}
-              className="object-cover"
+              className="object-cover rounded-full"
             />
             {isSpeaking && <span className="animate-speak" />}
           </div>
@@ -199,7 +200,7 @@ const Agent = ({
         <div className="card-border">
           <div className="card-content">
             <Image
-              src="/user-avatar.png"
+              src="/user_avatar_new.jpg"
               alt="profile-image"
               width={539}
               height={539}
